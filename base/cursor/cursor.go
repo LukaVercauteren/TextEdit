@@ -19,6 +19,6 @@ func NewCursor() Cursor {
 	return Cursor{
 		mode:            defaultCursorMode,
 		insertModeRune:  '|',
-		overwriteModeRune: '█'
+		overwriteModeRune: '█',
 	}
 }
