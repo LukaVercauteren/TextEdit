@@ -3,7 +3,7 @@ package main
 import (
 	"github.com/veandco/go-sdl2/sdl"
 	_ "github.com/veandco/go-sdl2/ttf"
-	_ "Development/base/src"
+	"github.com/LukaVercauteren/TextEdit/base"
 )
 
 func main() {
