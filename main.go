@@ -3,7 +3,7 @@ package main
 import (
 	"github.com/veandco/go-sdl2/sdl"
 	_ "github.com/veandco/go-sdl2/ttf"
-	"Development/base/src"
+	_ "Development/base/src"
 )
 
 func main() {
