@@ -1,3 +1,3 @@
-module github.com/LukaVercauteren/TextEdit-Base/base
+module github.com/LukaVercauteren/TextEdit/base
 
 go 1.18
