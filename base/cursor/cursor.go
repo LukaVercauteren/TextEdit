@@ -8,17 +8,17 @@ const (
 )
 
 type Cursor struct {
-	mode            CursorMode
-	currentRune     rune
-	insertModeRune  rune
+	mode              CursorMode
+	currentRune       rune
+	insertModeRune    rune
 	overwriteModeRune rune
 }
 
 func NewCursor() Cursor {
 	defaultCursorMode := Insert // Set default cursor mode to Insert
 	return Cursor{
-		mode:            defaultCursorMode,
-		insertModeRune:  '|',
+		mode:              defaultCursorMode,
+		insertModeRune:    '|',
 		overwriteModeRune: '█',
 	}
 }
