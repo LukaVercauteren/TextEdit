@@ -1,4 +1,4 @@
-module ui
+module github.com/LukaVercauteren/TextEdit/ui
 
 go 1.22.5
 
