@@ -1,4 +1,4 @@
-module github.com/LukaVercauteren/TextEdit
+module TextEdit
 
 go 1.22.5
 
