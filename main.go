@@ -4,6 +4,7 @@ import (
 	"fmt"
 
 	"github.com/LukaVercauteren/TextEdit/base/cursor"
+	"github.com/LukaVercauteren/TextEdit/ui"
 	"github.com/veandco/go-sdl2/sdl"
 	_ "github.com/veandco/go-sdl2/ttf"
 )
@@ -12,6 +13,9 @@ func main() {
 
 	cursor := cursor.NewCursor()
 	fmt.Printf("cursor: %v\n", cursor)
+
+	ui.DrawWholeBuffer()
+
 	if err := sdl.Init(sdl.INIT_EVERYTHING); err != nil {
 		panic(err)
 	}

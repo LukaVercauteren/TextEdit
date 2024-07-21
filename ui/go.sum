@@ -1,0 +1,4 @@
+github.com/LukaVercauteren/TextEdit/base v0.0.0-20240720223916-bb0f73d651c4 h1:/O5G90Q/sl3XvPuY+JKMno8HkAiw2tqI8/cMatV0KNg=
+github.com/LukaVercauteren/TextEdit/base v0.0.0-20240720223916-bb0f73d651c4/go.mod h1:LSl77760t0PM1PNdtvNZG90AsTaZiruJUNNTHAHZ5AI=
+github.com/veandco/go-sdl2 v0.4.40 h1:fZv6wC3zz1Xt167P09gazawnpa0KY5LM7JAvKpX9d/U=
+github.com/veandco/go-sdl2 v0.4.40/go.mod h1:OROqMhHD43nT4/i9crJukyVecjPNYYuCofep6SNiAjY=
