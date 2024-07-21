@@ -4,12 +4,13 @@ import (
 	"fmt"
 
 	"github.com/LukaVercauteren/TextEdit/base/cursor"
+	"github.com/LukaVercauteren/TextEdit/ui"
 	"github.com/veandco/go-sdl2/sdl"
 	_ "github.com/veandco/go-sdl2/ttf"
 )
 
 func main() {
-
+	ui.BufferToSurface()
 	cursor := cursor.NewCursor()
 	fmt.Printf("cursor: %v\n", cursor)
 

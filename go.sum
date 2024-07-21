@@ -1,6 +1,6 @@
 github.com/LukaVercauteren/TextEdit/base v0.0.0-20240720223916-bb0f73d651c4 h1:/O5G90Q/sl3XvPuY+JKMno8HkAiw2tqI8/cMatV0KNg=
 github.com/LukaVercauteren/TextEdit/base v0.0.0-20240720223916-bb0f73d651c4/go.mod h1:LSl77760t0PM1PNdtvNZG90AsTaZiruJUNNTHAHZ5AI=
-github.com/LukaVercauteren/TextEdit/ui v0.0.0-20240721122123-52d84b36e191 h1:JsBlSWRxhRf9zkEJCzoBKdAtLIkCuu00tqh7FFUwBIM=
-github.com/LukaVercauteren/TextEdit/ui v0.0.0-20240721122123-52d84b36e191/go.mod h1:LZLbrO7fc/JwBgZRmNNjcDmE0Hu41pq1CEQ9vX1YyVI=
+github.com/LukaVercauteren/TextEdit/ui v0.0.0-20240721131840-5b85dac8b445 h1:QPXapJbubtw79alKvvI3k0vm5yd4vXlEf03b/JlXSy4=
+github.com/LukaVercauteren/TextEdit/ui v0.0.0-20240721131840-5b85dac8b445/go.mod h1:LZLbrO7fc/JwBgZRmNNjcDmE0Hu41pq1CEQ9vX1YyVI=
 github.com/veandco/go-sdl2 v0.4.40 h1:fZv6wC3zz1Xt167P09gazawnpa0KY5LM7JAvKpX9d/U=
 github.com/veandco/go-sdl2 v0.4.40/go.mod h1:OROqMhHD43nT4/i9crJukyVecjPNYYuCofep6SNiAjY=
