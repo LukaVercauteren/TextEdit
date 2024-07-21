@@ -6,6 +6,6 @@ import (
 	_ "github.com/veandco/go-sdl2/ttf"
 )
 
-func (buffer.Buffer) DrawWholeBuffer(surface sdl.Surface) {
+func DrawWholeBuffer(buffer buffer.Buffer, surface sdl.Surface) {
 
 }
