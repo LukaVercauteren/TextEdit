@@ -1,26 +1,28 @@
 package main
 
 import (
+	"fmt"
+
+	"github.com/LukaVercauteren/TextEdit/base/cursor"
 	"github.com/veandco/go-sdl2/sdl"
 	_ "github.com/veandco/go-sdl2/ttf"
-	"github.com/LukaVercauteren/TextEdit/base"
 )
 
 func main() {
 
+	cursor := cursor.NewCursor()
+	fmt.Printf("cursor: %v\n", cursor)
 	if err := sdl.Init(sdl.INIT_EVERYTHING); err != nil {
 		panic(err)
 	}
 	defer sdl.Quit()
 
-
 	window, err := sdl.CreateWindow("TextEdit Development Version", sdl.WINDOWPOS_UNDEFINED, sdl.WINDOWPOS_UNDEFINED, 800, 600, sdl.WINDOW_SHOWN)
 
 	if err != nil {
 		panic(err)
-	} 
+	}
 	defer window.Destroy()
-
 
 	surface, err := window.GetSurface()
 	if err != nil {
@@ -28,7 +30,6 @@ func main() {
 	}
 
 	surface.FillRect(nil, 0)
-
 
 	rect := sdl.Rect{X: 0, Y: 0, W: 200, H: 200}
 	color := sdl.Color{R: 255, G: 0, B: 255, A: 255}
@@ -48,6 +49,6 @@ func main() {
 			}
 		}
 
-        sdl.Delay(33)
+		sdl.Delay(33)
 	}
 }
