@@ -2,14 +2,39 @@ package main
 
 import (
 	"TextEdit/base/cursor"
+	"TextEdit/base/settings"
 	"TextEdit/ui"
 	"fmt"
 
 	"github.com/veandco/go-sdl2/sdl"
-	_ "github.com/veandco/go-sdl2/ttf"
+	"github.com/veandco/go-sdl2/ttf"
+)
+
+const (
+	fontName = "Iosevka Medium"
+	fontPath = "/usr/local/share/fonts/i/Iosevka_Medium.ttc"
+	fontSize = 12
 )
 
 func main() {
+	// Init and get font
+	ttf.Init()
+
+	// Init settings struct
+	font, err := ttf.OpenFont(fontPath, fontSize)
+	if err != nil {
+		return
+	}
+	defer font.Close()
+
+	settings.ProgSettings = settings.Settings{
+		Font:      *font,
+		FontName:  fontName,
+		FontPath:  fontPath,
+		TextSize:  fontSize,
+		TextColor: sdl.Color{R: 255, G: 255, B: 255, A: 255},
+	}
+
 	ui.BufferToSurface()
 	cursor := cursor.NewCursor()
 	fmt.Printf("cursor: %v\n", cursor)
